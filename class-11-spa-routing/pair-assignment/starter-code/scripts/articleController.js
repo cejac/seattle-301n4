@@ -9,7 +9,7 @@
   // TO: Also be sure to hide all the main section elements, and reveal the #articles section:
   articlesController.index = function() {
     Article.fetchAll(articleView.initIndexPage);
-    $('main section').hide();
+    $('.tab-content').hide();
     $('#articles').show();
   };
 
